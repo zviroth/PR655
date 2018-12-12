@@ -2,7 +2,6 @@ function [] = runPhotometer(numSamples, filename)
 %things to check:
 % JoshCalibforBL.m --> getPRValues - spec = PR655rawspd(10); so no timeout
 % photometer cap off
-if ieNotDefined('filename'), filename = date; end
 dirname = '/Users/rothzn/Documents/MATLAB/calibration';
 
 info.computer = 'laptop';
